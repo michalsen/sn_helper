@@ -1,3 +1,3 @@
 
 
-  // console.log(snVars);
+  console.log(snVars);
