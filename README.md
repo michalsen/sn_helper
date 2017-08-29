@@ -20,6 +20,8 @@ would be a js script has an ajax call:
                  }
              });
 ```
+where <strong>snVars.sn_path</strong> is the object needed.<br>
+You can console.log(snVars) to see all objects at your disposal.
 
 
 
