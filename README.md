@@ -10,7 +10,7 @@ This plugin solves this by finding the wp plugin directory and
 assigning it an object you can call in js directly.  An example
 would be a js script has an ajax call:
 
-<code>
+```
  var sendData = $.ajax({
                type: 'POST',
                url: snVars.sn_path+'/mapgroove/assets/ajax/map_data.php',
@@ -19,7 +19,7 @@ would be a js script has an ajax call:
                      $('.datamapping').html(resultData);
                  }
              });
-</code>
+```
 
 
 
