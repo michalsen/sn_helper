@@ -23,6 +23,10 @@ would be a js script has an ajax call:
 where <strong>snVars.sn_path</strong> is the object needed.<br>
 You can console.log(snVars) to see all objects at your disposal.
 
-
+For php assets Wordpress has a function already, <strong>plugins_url()</strong>
+```
+<img src="<?php print plugins_url(); ?>/someplugin/assets/images/someplugin.png" width="200px">
+```
+<br>
 
 @michalsen for questions
